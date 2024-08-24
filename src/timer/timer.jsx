@@ -69,9 +69,9 @@ export default function Timer() {
       <div className="set-timer w-full flex items-center justify-around text-nowrap text-blue-700 text-lg sm:text-4xl">
         <div className="flex">
           {updateTime(hours, setHours)}
-          <div>:</div>
+          <div className=" self-center">:</div>
           {updateTime(minutes, setMinutes)}
-          <div>:</div>
+          <div className=" self-center">:</div>
           {updateTime(seconds, setSeconds)}
         </div>
       </div>
