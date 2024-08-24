@@ -61,7 +61,7 @@ export default function Timer() {
   return (
     <div className="timer w-[80%] sm:w-[40%] h-[500px] bg-white rounded-lg shadow-xl shadow-cyan-950 flex flex-col items-center justify-between">
       <h1 className="heading text-lg sm:text-4xl text-nowrap mt-5">Set A Timer</h1>
-      <div className="time-heading w-full flex items-center justify-around text-nowrap text-gray-500">
+      <div className="time-heading w-full flex items-center justify-center gap-2 text-nowrap text-gray-500">
         <h3>Hours</h3>
         <h3>Minutes</h3>
         <h3>Seconds</h3>
